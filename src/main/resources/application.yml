@@ -1,0 +1,17 @@
+#Connection Details 
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ashu
+    username: root
+    password: adityakarn
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialct: org.hibernate.dialect.MySQL5Dialect
+    
+      
